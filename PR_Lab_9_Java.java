@@ -94,6 +94,14 @@ public class PR_Lab_9_Java{
 		Building b2 = new Building(5);
 		Building b3 = new Building("Офисное здание", 5, 1, 2, 3, 5, 3);
 		
+		/* Инициализация массива. */
+		Building mB[] = new Building[5];
+		int i;
+		for(i = 0; i < 5; i++)
+		{
+			mB[i] = new Building(i);
+		}
+		
 		b1.getBuilding();
 		b2.getBuilding();
 		b3.getBuilding();
