@@ -87,5 +87,15 @@ public class PR_Lab_9_Java{
 		Building.companyName = "Авангард";
 		System.out.println("\nОбщее количество когда-либо построенных этой компанией зданий: " + Building.getCountOfBuildings());
 		building.getBuilding();
+		
+		/* Использование конструкторов */
+		System.out.println("\nИспользование конструкторов: ");
+		Building b1 = new Building();
+		Building b2 = new Building(5);
+		Building b3 = new Building("Офисное здание", 5, 1, 2, 3, 5, 3);
+		
+		b1.getBuilding();
+		b2.getBuilding();
+		b3.getBuilding();
 	}
 }
